@@ -3,8 +3,7 @@ require './question'
 
 class Game
 
- 
-  def start
+   def start
     puts 'Start Game'
     @player1 = Player.new("Player 1")
     @player2 = Player.new("Player 2")
